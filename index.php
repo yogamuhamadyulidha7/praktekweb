@@ -195,6 +195,13 @@ if(isset($_SESSION['login'])){
       <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
+    </div>
+    <div class="form-floating">
+      <input type="number" name="umur" class="form-control" id="floatingPassword" placeholder="Umur">
+      <label for="floatingPassword">Umur</label>
+    </div>
+
+    
     <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
     <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
   </form>
